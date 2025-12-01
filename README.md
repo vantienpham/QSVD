@@ -1,8 +1,12 @@
 # QSVD: Efficient Low-Rank Approximation for Unified Query-Key-Value Weight Compression in Low-Precision Vision-Language Models
 
+[arXiv](https://arxiv.org/abs/2510.16292)
+
 This repository provides the official implementation of **QSVD**, a method for efficient low-rank approximation that unifies Query-Key-Value (QKV) weight compression in low-precision Vision-Language Models (VLMs).
 
+
 ![QSVD Overview](figs/qsvd_overview.svg)
+
 
 <!-- <p align="center">
   <a href="https://neurips.cc/Conferences/2025">
@@ -190,6 +194,18 @@ python mainllava.py --model liuhaotian/llava-v1.5-7b  \
                 --beta_then_svd
 ```
 
+## 📚 Citation
+
+If QSVD helps your research or applications, please cite our paper:
+
+```
+@article{wang2025qsvd,
+  title={QSVD: Efficient Low-rank Approximation for Unified Query-Key-Value Weight Compression in Low-Precision Vision-Language Models},
+  author={Wang, Yutong and Wang, Haiyu and Zhang, Sai Qian},
+  journal={arXiv preprint arXiv:2510.16292},
+  year={2025}
+}
+```
 
 ## 🤝 Contributing
 
